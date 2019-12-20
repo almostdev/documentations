@@ -9,33 +9,30 @@ Category: Standards Track                                 First Virtual
                             (MIME) Part One:
                    Format of Internet Message Bodies
 
-Status of this Memo
+이 메모의 상태
 
-   This document specifies an Internet standards track protocol for the
-   Internet community, and requests discussion and suggestions for
-   improvements.  Please refer to the current edition of the "Internet
-   Official Protocol Standards" (STD 1) for the standardization state
-   and status of this protocol.  Distribution of this memo is unlimited.
+   이 문서는 인터넷 커뮤니티와 위한 인터넷 표준 트랙 프로토콜을 지정하고, 개선을 위한 토론과
+   제안을 요청합니다. 이 프로토콜의 표준화 및 상태 및 현황은 "인터넷 공식 프로토콜 표준"
+   (STD1)의 최신판을 참조하세요. 이 메모는 무제한으로 배포할 수 있습니다.
 
-Abstract
+개요
 
-   STD 11, RFC 822, defines a message representation protocol specifying
-   considerable detail about US-ASCII message headers, and leaves the
-   message content, or message body, as flat US-ASCII text.  This set of
-   documents, collectively called the Multipurpose Internet Mail
-   Extensions, or MIME, redefines the format of messages to allow for
+   STD 11, RFC 822는 US-ASCII 메시지 헤더에 대한 메시지 표시 프로토콜을 상세하게 명시해서
+   정의했지만, 메시지 내용과 본문은 단순한 US-ASCII 텍스트로 남겨두었습니다. 다목적 인터넷 
+   메일 확장 또는 MIME이라고 총칭해서 부르는 이 문서에서는 아래 언급된 메시지의 형식을 재정의합니다.
+   
+    (1)   US-ASCII가 아닌 다른 character sets의 문자 메시지 본문
+    
+    (2)   문자 메시지가 아닌 본문에 대한 확장 가능한 형식들
 
-    (1)   textual message bodies in character sets other than
-          US-ASCII,
+    (3)   multi-part 메시지 본문, 그리고
 
-    (2)   an extensible set of different formats for non-textual
-          message bodies,
-
-    (3)   multi-part message bodies, and
-
-    (4)   textual header information in character sets other than
-          US-ASCII.
-
+    (4)   US-ASCII가 아닌 다른 character sets의 헤더 정보
+          
+   이 문서는 RFC 934, STD 11및 RFC 1049에 작성된 이전 작업에 기초하지만, 이를 확장하고 
+   수정합니다. RFC 822는 메시지 본문에 대해서는 거의 언급되어 있지 않기 때문에, RFC 822의
+   개정판이 아닌, 서로 다른 주제에 대한 문서입니다.
+   
    These documents are based on earlier work documented in RFC 934, STD
    11, and RFC 1049, but extends and revises them.  Because RFC 822 said
    so little about message bodies, these documents are largely
