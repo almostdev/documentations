@@ -21,13 +21,13 @@ Category: Standards Track                                 First Virtual
    정의했지만, 메시지 내용과 본문은 단순한 US-ASCII 텍스트로 남겨두었습니다. 다목적 인터넷 
    메일 확장 또는 MIME이라고 총칭해서 부르는 이 문서에서는 아래 언급된 메시지의 형식을 재정의합니다.
    
-    (1)   US-ASCII가 아닌 다른 character sets의 문자 메시지 본문
+    (1)   US-ASCII가 이외의 character sets의 문자 메시지 본문
     
     (2)   문자 메시지가 아닌 본문에 대한 확장 가능한 형식들
 
     (3)   multi-part 메시지 본문, 그리고
 
-    (4)   US-ASCII가 아닌 다른 character sets의 헤더 정보
+    (4)   US-ASCII가 이외의 character sets의 헤더 정보
           
    이 문서는 RFC 934, STD 11및 RFC 1049에 작성된 이전 작업에 기초하지만, 이를 확장하고 
    수정합니다. RFC 822는 메시지 본문에 대해서는 거의 언급되어 있지 않기 때문에, RFC 822의
